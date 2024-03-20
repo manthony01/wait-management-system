@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:unsw-cse-comp3900-9900-23T2/frontend.git
+[submodule "backend"]
+	path = backend
+	url = git@github.com:unsw-cse-comp3900-9900-23T2/backend.git
