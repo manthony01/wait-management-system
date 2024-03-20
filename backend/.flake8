@@ -1,0 +1,4 @@
+[flake8]
+exclude = app/integration_tests/*.py, app/settings.py
+per-file-ignores = __init__.py:F401
+max-line-length=100

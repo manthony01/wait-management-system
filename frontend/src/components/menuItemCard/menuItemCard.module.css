@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .Card {
+    @apply flex 
+        bg-base-100
+        border
+        border-base-200
+        rounded-sm
+        w-full 
+        h-44
+        hover:scale-[1.02] 
+        transform 
+        transition
+        hover:cursor-pointer
+        justify-between;
+  }
+}

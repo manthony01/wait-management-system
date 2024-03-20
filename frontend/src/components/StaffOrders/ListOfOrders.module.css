@@ -1,0 +1,8 @@
+.block {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+.block::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
